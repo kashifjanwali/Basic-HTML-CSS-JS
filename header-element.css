@@ -1,0 +1,57 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto 15px;
+  }
+
+  header h1 abbr {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    background-color: gold;
+    border: 3px solid transparent;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: wheat;
+    margin: 60px 50px 0 0;
+    font-size: 20px;
+  }
+
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 5px 10px 20px;
+  text-align: center;
+  font-family: monospace;
+}
+
+footer p {
+    padding: 0;
+    margin: 3px;
+    font-size: 16px;
+}
+
+footer p abbr {
+    text-decoration: none;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer nav a{
+    margin: 3px;
+    padding: 0;
+    text-align: left;
+}
