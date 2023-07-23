@@ -1,0 +1,59 @@
+* {
+  background-color: whitesmoke;
+  font-family: monospace;
+}
+
+.all-properties {
+  color: goldenrod;
+  font-size: larger;
+  font-weight: bold;
+  background-color: mediumvioletred;
+  border: 3px solid;
+  height: 45px;
+  text-align: center;
+  outline-color: cornflowerblue;
+  outline-style: dotted;
+}
+
+/* Sets the color of font/text i.e, color-name, RGB Method, Hexadecimal Method etc*/
+#color-property {
+  color: cornflowerblue;
+}
+
+/* Sets the font-size of text i.e, large, medium, small, x-large, x-small, or custom(20px) etc*/
+#fs-property {
+  font-size: x-large;
+}
+
+/* Sets the weight of text i.e, bold, bolder, lighter, normal, custom(800) etc */
+#fw-property {
+  font-weight: bolder;
+}
+
+/* Sets Background Color of text/divs etc */
+#bgc-property {
+  background-color: #dfff00;
+}
+
+/* Sets the border color, by default border-color is black */
+#bc-property {
+  border: 2px solid;
+  border-color: rgb(255, 99, 71);
+}
+
+/* Sets the height of text from bottom */
+#h-property {
+  height: 30px;
+}
+
+/* Sets the text-alignment i.e, left, right, center, justify etc */
+#ta-property {
+  text-align: right;
+}
+
+/* Sets outline color */
+#oc-property {
+  border: 4px solid gray;
+  outline-style: solid;
+  outline-color: turquoise;
+}
