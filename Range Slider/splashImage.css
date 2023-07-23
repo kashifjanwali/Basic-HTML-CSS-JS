@@ -1,0 +1,19 @@
+* {
+  background-color: beige;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#image {
+  display: block;
+  border: 4px solid red;
+  transition: border-radius 0.01s ease-in-out;
+  margin: auto;
+}
+label {
+  display: block;
+  font-size: 18px;
+}
+input {
+  display: block;
+  margin: auto;
+}
